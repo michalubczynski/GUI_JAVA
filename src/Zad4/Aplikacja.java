@@ -1,3 +1,5 @@
+package Zad4;
+
 import Zad3.PanelLista;
 import Zad4.PanelRakietowy;
 import javafx.application.Application;
@@ -63,7 +65,7 @@ public class Aplikacja {
     public void zrobOkno(){
         timer = new Timer(10,e -> {updatePilka();});
         timer.start();
-        okno = new JFrame("Aplikacja");
+        okno = new JFrame("Zad4.Aplikacja");
         okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         panel = new PanelRakietowy();
         panel.setBackground(Color.CYAN);

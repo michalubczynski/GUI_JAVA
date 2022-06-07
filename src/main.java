@@ -1,4 +1,5 @@
-import Zad1.Zadanie1_lab5;
+import Zad4.Aplikacja;
+import Zad6.AplikacjaPasekMenu;
 
 import javax.swing.*;
 
@@ -7,7 +8,7 @@ public class main {
         public static void main(String[] args) {
             SwingUtilities.invokeLater(new Runnable() {
                 public void run() {
-                    new Aplikacja().zrobOkno();
+                    new AplikacjaPasekMenu().zrobOkno();
                 }
             });
         }
